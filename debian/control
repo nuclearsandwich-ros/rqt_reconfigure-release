@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-reconfigure
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-copyright, ros-testing-ament-flake8, ros-testing-ament-xmllint, ros-testing-ros-workspace, python3-all, python3-setuptools
+Homepage: http://wiki.ros.org/rqt_reconfigure
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-reconfigure
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-yaml, ros-testing-ament-index-python, ros-testing-python-qt-binding (>= 0.2.19), ros-testing-qt-gui-py-common, ros-testing-rclpy, ros-testing-rqt-console, ros-testing-rqt-gui, ros-testing-rqt-gui-py, ros-testing-rqt-py-common, ros-testing-ros-workspace
+Description: This rqt plugin provides a way to view and edit parameters on nodes.
